@@ -81,6 +81,7 @@ class QueryType(str, Enum):
     CREATE = "CREATE TABLE"
     ALTER = "ALTER TABLE"
     DROP = "DROP TABLE"
+    TRUNCATE = "TRUNCATE TABLE"
 
 
 class TokenType(str, Enum):
